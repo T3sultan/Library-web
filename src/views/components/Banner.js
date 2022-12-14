@@ -46,7 +46,7 @@ const Banner = () => {
     },
   ];
   return (
-    <div className=" bg-white border">
+    <div className=" bg-white border rounded">
       <h2 className=" text-blue-400 text-start ml-4 mt-4">
         {" "}
         Welcome to Open Library
