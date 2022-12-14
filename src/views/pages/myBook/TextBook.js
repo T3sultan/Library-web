@@ -17,7 +17,7 @@ const TextBook = () => {
         <SwiperSlide>
           <div className="flex container flex-row mt-0 gap-4 m-6 p-4">
             {books
-              .filter(book => book.category === "textBooks")
+              .filter(book => book.category === "textbooks")
               .map(product => (
                 <TrendingBook
                   product={product}
@@ -29,7 +29,7 @@ const TextBook = () => {
         <SwiperSlide>
           <div className="flex  flex-row gap-4 m-6 p-4">
             {books
-              .filter(book => book.category === "textBooks")
+              .filter(book => book.category === "textbooks")
               .map(product => (
                 <TrendingBook
                   product={product}
@@ -41,7 +41,7 @@ const TextBook = () => {
         <SwiperSlide>
           <div className="flex  flex-row gap-4 m-6 p-4">
             {books
-              .filter(book => book.category === "textBooks")
+              .filter(book => book.category === "textbooks")
               .map(product => (
                 <TrendingBook
                   product={product}
