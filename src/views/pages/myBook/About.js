@@ -36,17 +36,21 @@ const About = () => {
             </a>
           </h5>
           <p className="mt-4">
-            <a className="link" href="..">
+            <a className="link text-blue-400" href="..">
               2022 Review
             </a>{" "}
             <i className="link">- November 23, 2022</i>
           </p>
           <p className="link mt-3">
-            <a href="..">Search for Books in your Reading Log</a>
+            <a className="text-blue-400" href="..">
+              Search for Books in your Reading Log
+            </a>
             <i>- November 23, 2022</i>
           </p>
           <p className="link mt-2">
-            <a href="..">Improvements to the Main Navigation</a>
+            <a className="text-blue-400" href="..">
+              Improvements to the Main Navigation
+            </a>
             <i>- November 22, 2022</i>
           </p>
         </div>

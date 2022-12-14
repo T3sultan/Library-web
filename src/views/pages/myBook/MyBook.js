@@ -7,8 +7,10 @@ import BooksLoves from "./BooksLoves";
 import ClassicBooks from "./ClassicBooks";
 import Footer from "./Footer";
 import Kids from "./Kids";
+import Librarys from "./Librarys";
 import RecentlyReturned from "./RecentlyReturned";
 import Romance from "./Romance";
+import TextBook from "./TextBook";
 import Thrillers from "./Thrillers";
 const MyHome = () => {
   return (
@@ -21,6 +23,7 @@ const MyHome = () => {
       <Romance />
       <Kids />
       <Thrillers />
+      <TextBook />
       <About />
       <Footer />
     </div>
